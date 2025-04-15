@@ -54,7 +54,8 @@
 
 <div class="su-lockup {{ modifier_class }}">
   {% if link and link != '' %}
-  <a href="{{ link }}" {{ link_attributes }}>
+  {% capture url_path %}{{ site.baseurl }}{{ link }}{% endcapture %}
+  <a href="{{ url_path }}" {{ link_attributes }}>
   {% endif %}
   <div class="su-lockup__cell1">
       <div class="su-lockup__wordmark-wrapper">
