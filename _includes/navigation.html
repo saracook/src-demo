@@ -12,7 +12,8 @@
       {% if item.external_url %}
       <a href="{{item.external_url}}" target="_blank">{{item.title}}</a>
       {% else if item.url %}
-      <a href="{{item.url}}">{{item.title}}</a>
+      {% capture url_path %}{{ site.baseurl }}{{ item.url }}{% endcapture %}
+      <a href="{{url_path}}">{{item.title}}</a>
       {% else %}
       {{item.title}}
       {% endif %}
@@ -23,7 +24,8 @@
           {% if folderitem.external_url %}
           <a class="su-multi-menu__link" href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a>
           {% else %}
-          <a class="su-multi-menu__link" href="{{folderitem.url}}">{{folderitem.title}}</a>
+          {% capture folder_url_path %}{{ site.baseurl }}{{ folderitem.url }}{% endcapture %}
+          <a class="su-multi-menu__link" href="{{folder_url_path}}">{{folderitem.title}}</a>
           {% endif %}
         </li>
         {% endfor %}

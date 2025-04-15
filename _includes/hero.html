@@ -1,6 +1,9 @@
+
+{% capture hero_image_path %}{{ site.baseurl }}{{ page.hero-image }}{% endcapture %}
+
 <aside class="su-hero">
   <div class="su-hero__media">
-    <img src="{{ page.hero-image }}" alt="{{ page.hero-alt }}" />
+    <img src="{{ hero_image_path }}" alt="{{ page.hero-alt }}" />
   </div>
   <div class="su-card su-hero__card">
     <div class="su-card__contents">

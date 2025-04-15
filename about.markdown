@@ -16,3 +16,5 @@ More content.
 ### h3
 
 More content.
+
+{% include image.html file="/assets/images/src-site-image.png" alt = "placeholder" %}
