@@ -17,4 +17,4 @@ More content.
 
 More content.
 
-{% include image.html file="/assets/images/src-site-image.png" alt = "placeholder" %}
+{% include image.html file="/assets/images/src-site-image.png" alt = "placeholder" caption = "image.html" max-width = "200" %}
