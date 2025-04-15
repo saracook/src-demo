@@ -24,6 +24,7 @@ Home page content
 
 {% include callout.html type="primary" content="callout.html" %}
 
+<p class="annotation">The boxes below only take content as a variable</p>
 {% include important.html content="important.html" %}
 
 {% include warning.html content="warning.html" %}
