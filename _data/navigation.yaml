@@ -12,8 +12,8 @@
   folderitems:
     - title: "About"
       url: "/about"
-    - title: "item1"
-      url: "#"
+    - title: "Custom"
+      url: "/custom-pages/"
     - title: "item2"
       url: "#"
     - title: "item3"
