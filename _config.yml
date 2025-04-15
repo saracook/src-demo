@@ -7,7 +7,7 @@ title: "SRC Sample Jekyll"
 image: "/assets/src-site-image.png"
 site_title: SRC Sample Jekyll
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-# baseurl: /src-demo
+baseurl: /src-demo
 owner:
   # The owner name must be provided.
   name: "Stanford Research Computing"
